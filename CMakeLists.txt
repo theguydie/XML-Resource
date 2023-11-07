@@ -7,3 +7,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON) # требование использова�
 set(CMAKE_CXX_EXTENSIONS OFF) # отключение расширений компилятора
 
 add_executable(XMLResource main.cpp)
+
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/resource.xml ${CMAKE_BINARY_DIR}/resource.xml COPYONLY)

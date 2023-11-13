@@ -1,0 +1,19 @@
+<HEAD>
+	value=1
+	<CHILD1>
+		value=2
+		<CHILD11>
+			value=3
+			<CHILD111>
+				value=4
+			</CHILD111>
+			<CHILD112>
+				value=5
+			</CHILD112>
+		</CHILD11>
+		<CHILD12>value=6</CHILD12>
+		<CHILD13>value=7</CHILD13>
+	</CHILD1>
+	<CHILD2>value=8</CHILD2>
+	<CHILD3>value=9</CHILD3>
+</HEAD>
